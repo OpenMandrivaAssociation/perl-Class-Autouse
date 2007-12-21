@@ -15,6 +15,7 @@ Url:		http://search.cpan.org/dist/%{module}
 Buildrequires:	perl-devel
 %endif
 BuildArch:	noarch
+BuildRoot:	%{_tmppath}/%{name}-%{version}
 
 %description
 Class::Autouse allows you to specify a class that will only load when a method
