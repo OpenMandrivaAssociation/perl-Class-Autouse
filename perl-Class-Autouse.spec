@@ -1,15 +1,15 @@
 %define upstream_name	 Class-Autouse
-%define upstream_version 2.00
+%define upstream_version 2.01
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Version:	%perl_convert_version 2.01
+Release:	1
 
 Summary:	Run-time class loading on first method call in Perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/Class/%{upstream_name}-%{upstream_version}.tar.bz2
+Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Class/Class-Autouse-2.01.tar.gz
 
 BuildRequires:	perl-devel
 BuildArch:	noarch
@@ -92,4 +92,5 @@ make test
 
 * Tue Mar 15 2005 Rafael Garcia-Suarez <rgarciasuarez@mandrakesoft.com> 1.17-1mdk
 - Initial MDK release.
+
 
