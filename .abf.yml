@@ -1,2 +1,4 @@
+removed_sources:
+  Class-Autouse-2.00.tar.bz2: ab5da008251d1ad446f29e5ddc74b36eee2ac6ae
 sources:
-  "Class-Autouse-2.00.tar.bz2": ab5da008251d1ad446f29e5ddc74b36eee2ac6ae
+  Class-Autouse-2.01.tar.gz: 875dadc0c92d617f1f38089240bf07b1b360d8ae
