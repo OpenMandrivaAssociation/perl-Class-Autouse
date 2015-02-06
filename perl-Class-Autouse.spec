@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version 2.01
-Release:	2
+Release:	3
 
 Summary:	Run-time class loading on first method call in Perl
 License:	GPL+ or Artistic
