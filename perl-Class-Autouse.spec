@@ -8,7 +8,7 @@ Release:	3
 Summary:	Run-time class loading on first method call in Perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Class/Class-Autouse-2.01.tar.gz
 
 BuildRequires:	perl-devel
