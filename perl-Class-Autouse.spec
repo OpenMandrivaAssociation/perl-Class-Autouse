@@ -1,15 +1,15 @@
 %define upstream_name	 Class-Autouse
-%define upstream_version 2.01
+%define upstream_version 2.02
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version 2.01
-Release:	3
+Version:	%{upstream_version}
+Release:	1
 
 Summary:	Run-time class loading on first method call in Perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	ftp://ftp.perl.org:21/pub/CPAN/modules/by-module/Class/Class-Autouse-2.01.tar.gz
+Url:		https://github.com/karenetheridge/Class-Autouse
+Source0:	https://cpan.metacpan.org/authors/id/E/ET/ETHER/Class-Autouse-2.02.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
