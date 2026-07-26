@@ -1,9 +1,7 @@
 %define upstream_name	 Class-Autouse
-%define upstream_version 2.02
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	1
+Version:	2.02
+Release:	2
 
 Summary:	Run-time class loading on first method call in Perl
 License:	GPL+ or Artistic
@@ -22,7 +20,7 @@ running of a program, such as Date::Manip, this can save you large amounts of
 memory, and decrease the script load time.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 find lib -name \*.pm | xargs chmod 644
@@ -48,9 +46,7 @@ make test
 
 * Sat Aug 01 2009 JÃ©rÃ´me Quelin <jquelin@mandriva.org> 1.290.0-1mdv2011.0
 + Revision: 406872
-- rebuild using %%perl_convert_version
-
-* Wed Jul 30 2008 Thierry Vignaud <tv@mandriva.org> 1.29-3mdv2009.0
+- rebuild using %2.02 Wed Jul 30 2008 Thierry Vignaud <tv@mandriva.org> 1.29-3mdv2009.0
 + Revision: 255887
 - rebuild
 - kill re-definition of %%buildroot on Pixel's request
